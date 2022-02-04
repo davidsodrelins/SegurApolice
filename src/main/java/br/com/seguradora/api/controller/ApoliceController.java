@@ -20,6 +20,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -39,21 +40,6 @@ public class ApoliceController {
 
     public ResponseEntity<?> getAll() {
         return ResponseEntity.ok(apoliceService.findAll());
-    }
-
-
-    @GetMapping("{numero}")
-    @ApiOperation("Obter detalhes de uma apólice")
-    @ApiResponses({
-            @ApiResponse(code = 200, message = "Apólice encontrado"),
-            @ApiResponse(code = 404, message = "Apólice não encontrada para o numero informado")
-    })
-    public ResponseEntity<?> getApoliceByNumero(
-            @PathVariable
-            @ApiParam("Número da apólice") Long numero) {
-
-        Optional<Apolice> apolice = apoliceService.findByNumero(numero);
-        return apolice.isPresent() ? ResponseEntity.ok(apolice.get()) : ResponseEntity.ok("Apólice não encontrada");
     }
 
     @PostMapping
@@ -91,7 +77,7 @@ public class ApoliceController {
                         "Apólice não encontrada"));
     }
 
-    @GetMapping("report/{numero}")
+    @GetMapping("{numero}")
     @ApiOperation("Verificar a validade de uma apólice")
     @ApiResponses({
             @ApiResponse(code = 200, message = "Apólice encontrado"),
