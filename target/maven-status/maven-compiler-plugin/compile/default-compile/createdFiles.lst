@@ -1,0 +1,17 @@
+br\com\seguradora\api\dto\ClienteDTO.class
+br\com\seguradora\api\service\impl\ClienteServiceImpl.class
+br\com\seguradora\api\service\ClienteService.class
+br\com\seguradora\api\repository\ClienteRepository.class
+br\com\seguradora\api\config\InternacionalizacaoConfig.class
+br\com\seguradora\api\model\Cliente.class
+br\com\seguradora\api\service\impl\ApoliceServiceImpl.class
+br\com\seguradora\api\repository\ApoliceRepository.class
+br\com\seguradora\api\dto\ApoliceDTO.class
+br\com\seguradora\api\ConfigurationWeb.class
+br\com\seguradora\api\model\Apolice.class
+br\com\seguradora\api\SegurApoliceApplication.class
+br\com\seguradora\api\service\ApoliceService.class
+br\com\seguradora\api\config\SwaggerConfig.class
+br\com\seguradora\api\controller\ClienteController.class
+br\com\seguradora\api\controller\ApoliceController.class
+br\com\seguradora\api\dto\ReportApoliceDTO.class

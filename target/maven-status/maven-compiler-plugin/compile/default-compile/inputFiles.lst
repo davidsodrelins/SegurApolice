@@ -1,0 +1,17 @@
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\config\InternacionalizacaoConfig.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\service\ClienteService.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\model\Cliente.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\service\impl\ClienteServiceImpl.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\model\Apolice.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\SegurApoliceApplication.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\service\ApoliceService.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\controller\ClienteController.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\dto\ApoliceDTO.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\config\SwaggerConfig.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\ConfigurationWeb.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\dto\ReportApoliceDTO.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\repository\ClienteRepository.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\service\impl\ApoliceServiceImpl.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\controller\ApoliceController.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\repository\ApoliceRepository.java
+C:\Users\david.sodre.l.silva\OneDrive - Accenture\Desktop\API-Desafio\src\main\java\br\com\seguradora\api\dto\ClienteDTO.java
