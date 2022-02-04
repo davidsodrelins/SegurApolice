@@ -41,6 +41,21 @@ public class ApoliceController {
         return ResponseEntity.ok(apoliceService.findAll());
     }
 
+
+    @GetMapping("{numero}")
+    @ApiOperation("Obter detalhes de uma apólice")
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "Apólice encontrado"),
+            @ApiResponse(code = 404, message = "Apólice não encontrada para o numero informado")
+    })
+    public ResponseEntity<?> getApoliceByNumero(
+            @PathVariable
+            @ApiParam("Número da apólice") Long numero) {
+
+        Optional<Apolice> apolice = apoliceService.findByNumero(numero);
+        return apolice.isPresent() ? ResponseEntity.ok(apolice.get()) : ResponseEntity.ok("Apólice não encontrada");
+    }
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     @ApiOperation("Salva uma nova apólice")
@@ -76,7 +91,7 @@ public class ApoliceController {
                         "Apólice não encontrada"));
     }
 
-    @GetMapping("{numero}")
+    @GetMapping("report/{numero}")
     @ApiOperation("Verificar a validade de uma apólice")
     @ApiResponses({
             @ApiResponse(code = 200, message = "Apólice encontrado"),

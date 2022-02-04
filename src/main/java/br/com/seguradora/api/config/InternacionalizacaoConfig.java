@@ -1,4 +1,4 @@
-package io.github.dougllasfps.config;
+package br.com.seguradora.api.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
