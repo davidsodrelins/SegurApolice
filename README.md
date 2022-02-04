@@ -9,7 +9,7 @@ Acessando a aplicação:
 
 ### 1 - Executando o projeto
 Entre na pasta root da API e execute o seguinte comando:
->$ java -jar segurapolice-0.0.1-SNAPSHOT.war
+>$ java -jar SegurApolice-1.0-SNAPSHOT.war
 
 ### 2. Acessando a API
 Para acessar a aplicação, utilize Insomnia ou o Postman. Importe as collections disponíveis na pasta resources.
