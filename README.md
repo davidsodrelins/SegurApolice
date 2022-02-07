@@ -1,5 +1,5 @@
 # SEGURAPOLICE 1.0 - API para Seguradora de Veículos
-Esta é uma API REST simples criada para manter clientes e apolices. Nesta API REST é possível acessar os endpoints para tealizar o CRUD de uma seguradora de veículos.
+Esta é uma API REST simples criada para manter clientes e apolices. Nesta API REST é possível acessar os endpoints para realizar o CRUD de uma seguradora de veículos.
 
 Acessando a aplicação:
 ### 0. Requisitos para executar o projeto
